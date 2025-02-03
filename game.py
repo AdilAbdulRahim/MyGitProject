@@ -34,3 +34,5 @@ def number_guessing_game():
                 attempts = 0
                 print("\nNew round! I am thinking of a number between 1 and 100.")
 
+
+number_guessing_game()
