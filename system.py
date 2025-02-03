@@ -1,4 +1,4 @@
-// validation sys function 
+#validation sys function 
 highScore = None
 def validateInput(userInput):
     try:
@@ -12,7 +12,7 @@ def validateInput(userInput):
         print("Invalid input. Please enter a valid number.")
         return None
 
-//scoring system function
+#scoring system function
 def updateScoringSystem(attempts):
     global highScore
     if highScore is None or attempts < highScore:
